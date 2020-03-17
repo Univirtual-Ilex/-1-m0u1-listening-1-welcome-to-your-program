@@ -47,7 +47,7 @@ const Actividad_base = ({staticContext, ...props}) => {
             
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='msjClick one time in each phrase to listen how pronounce them. Listen before start to resolve the exercise' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again'  onClick={ () => {window.location.href = '/actividad1'} }  />
             </UiButtonsContainer>
 
             <ProgressbarContainer>

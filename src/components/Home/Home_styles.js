@@ -1,6 +1,5 @@
 import {css} from 'styled-components'
 import Ilex from '../../App/variables'
-import animations from './Home_animations'
 // La utilidad css me permite usar css desde un elemento externo
 const estilos_home = css`
     h1 {
@@ -44,6 +43,8 @@ const estilos_home = css`
         }
 
     }
+
+
 `
 
 export default estilos_home
