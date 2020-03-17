@@ -5,6 +5,9 @@ import animations from './animations'
 
 
 const Gstyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Rubik:400,700,900&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
     ${icons}
     *{
         margin: 0;
@@ -17,7 +20,6 @@ const Gstyle = createGlobalStyle`
         height: 100%;
     }
     body{
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Rubik:400,700,900&display=swap');
         font-family:${Ilex.font};
         font-size: ${Ilex.font_size};
         -webkit-font-smoothing: antialiased;
