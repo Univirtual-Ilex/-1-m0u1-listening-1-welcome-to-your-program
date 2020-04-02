@@ -1,1 +1,1 @@
-export { default } from './ButtonControlUI'
+export { default, ButtonControlUILink } from './ButtonControlUI'

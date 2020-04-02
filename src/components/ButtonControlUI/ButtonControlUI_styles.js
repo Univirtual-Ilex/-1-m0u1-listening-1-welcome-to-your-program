@@ -2,7 +2,7 @@ import { css } from 'styled-components'
 import Ilex from '../../App/variables'
     const styles = css`
 
-    button{
+    button,a{
 
         position: relative;
         border:0.15em solid ${Ilex.violeta2};
@@ -12,6 +12,7 @@ import Ilex from '../../App/variables'
         border-radius: 50%;
         color: ${Ilex.violeta2};
         font-weight:bolder;
+        text-decoration: none;
         font-size:1.1em;
         line-height:0;
         cursor:pointer;
@@ -35,6 +36,15 @@ import Ilex from '../../App/variables'
             top: 4.2em;
         }
     }
+    a{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        &:hover::after{
+            margin-left: 0.8em ;
+        }
+    }
+
 
     `
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 // Components
-import { ButtonmodalTo } from '../../ButtonModal'
+import ButtonModal, { ButtonmodalTo } from '../../ButtonModal'
 import styled from 'styled-components'
 import styles from './Modal_styles'
 
@@ -69,8 +69,8 @@ const ModalBase = ( { w, ok, err, visible,nxtUrl,repeatUrl, ...props } ) => {
 
 
                     <div className='ilx-modal-footer'>
-                        <ButtonmodalTo inactivo href={repeatUrl}>Repeat</ButtonmodalTo>
-                        { !err &&  <ButtonmodalTo href={nxtUrl}> Next </ButtonmodalTo>  }
+                        <ButtonModal inactivo target={repeatUrl} onClick={() => window.location.reload() } >Repeat</ButtonModal>
+                        { !err &&  <ButtonmodalTo href={nxtUrl}> Next </ButtonmodalTo> }
                         
                     </div>
 

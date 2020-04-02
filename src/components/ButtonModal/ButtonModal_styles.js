@@ -35,6 +35,10 @@ ${properties}
 display: inline-block;
 padding:0.6em 1.7em;
 text-decoration: none;
+a{
+    text-decoration: none;
+    color:#fff;
+}
 &.inactivo{
     background: ${Ilex.color_grisMedio};
     &:hover{
