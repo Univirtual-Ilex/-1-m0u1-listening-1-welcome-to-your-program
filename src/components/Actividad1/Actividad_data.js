@@ -57,7 +57,7 @@ const data = [
 
     {
       "id": 12,
-      "name": "¡Hey, there! My name is Johnny",
+      "name": "Hey, there! My name is Johnny",
       "audio": "media/heytheremynameisjohnny.mp3",
       "areaTarget": "area_3"
     },
@@ -69,7 +69,7 @@ const data = [
     },
     {
       "id": 5,
-      "name": "Fine Art Building",
+      "name": "Fine Arts Building",
       "audio": "media/fineartsbuilding.mp3",
       "areaTarget": "area_1"
     },

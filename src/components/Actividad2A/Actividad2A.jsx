@@ -8,6 +8,7 @@ import Video from '../Video'
 
 // Components
 import PreguntaTF from '../PreguntaTF'
+import Modal from '../Generales/Modal'
 // Data
 import data from './Actividad2A_data'
 import { useState } from 'react'
@@ -39,9 +40,7 @@ const Actividad2A_base = ({staticContext,...props}) => {
                 <div className='bloque-controles'>
                 </div>
             </div>
-
-
-
+            
         </Container>
 
     )

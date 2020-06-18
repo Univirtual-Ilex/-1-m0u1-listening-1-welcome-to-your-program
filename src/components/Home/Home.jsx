@@ -16,7 +16,7 @@ const Home_base = function ({staticContext,...props}) { // se le pasan las props
                             <h1>Welcome to your program </h1>
                             <p>
                                 This activity count with 3 parts, you must pass each exercise to finish. 
-                                <span className='negrilla'>¡Time to practice your listening skill!</span>
+                                <span className='negrilla'> Time to practice your listening skill!</span>
                             </p>
                             <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>

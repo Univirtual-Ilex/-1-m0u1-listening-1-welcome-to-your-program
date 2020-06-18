@@ -19,7 +19,7 @@ const Actividad2_base = ({staticContext,...props}) => {
                 <ProgressBar progress={50}/>
                 <div className='container-content'>
                     <MainTitle color={Ilex.violeta2}> Videoquiz </MainTitle>
-                    <p className='text'>Watch and listen to the video “First week of classes at university”
+                    <p className='text'>Watch and listen to the video “First week of classes at the university”
 Choose if the statements are true or false</p>
                 </div>
                 <div className='buttoncontainer'>

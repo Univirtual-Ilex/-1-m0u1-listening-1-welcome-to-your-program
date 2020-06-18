@@ -46,7 +46,7 @@ const Actividad_base = ({staticContext, ...props}) => {
         <Container bgImage='./src/bg_actividad1.png' {...props} id="area">
             
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='msjClick one time in each phrase to listen how pronounce them. Listen before start to resolve the exercise' />
+                <ButtonUi icon='ilx-ayuda' tooltip='This activity comes in 3 parts. Click and listen to each expression and classify them in the right group.' />
                 <ButtonUi icon='ilx-volver' tooltip='Start Again'  onClick={ () => {window.location.reload()} }  />
             </UiButtonsContainer>
 

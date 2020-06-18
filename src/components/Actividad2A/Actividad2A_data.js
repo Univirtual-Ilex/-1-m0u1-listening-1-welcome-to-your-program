@@ -21,12 +21,12 @@ const data = [
     },
     {
         "id": 5,
-        "question": "Johnny says that Antonio and he are in the same class.",
+        "question": "Johnny says that He and Antonio are in the same class.",
         "answer": true
     },
     {
         "id": 6,
-        "question": "One of the students does not have class at “La Julita”.",
+        "question": "Johnny does not have class at “La Julita”.",
         "answer": false
     },
     {

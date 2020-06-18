@@ -64,7 +64,7 @@ const Actividad3_base = ({staticContext,...props}) => {
                     }
 
                 </div>
-                    <Modal visible={modal} ok w={25} nxtUrl='/' repeatUrl='/actividad3'/> 
+                    <Modal visible={modal} ok w={25} nxtUrl='#/' repeatUrl='#/actividad3'/> 
             </div>
         </Container>
 

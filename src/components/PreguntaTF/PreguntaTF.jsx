@@ -41,7 +41,7 @@ const PreguntaTF_base = ({changequestion, totalcounts, counter, answers,...props
             <div className='pregunta'> { props.children } </div>
             <ButtonTF t onClick={()=>nextQuestion(true)} />
             <ButtonTF f onClick={()=>nextQuestion(false)} />
-            <Modal visible={visibility} w={35} err={!passed} ok={passed} repeatUrl='/actividad2a' nxtUrl='/actividad3'>
+            <Modal visible={visibility} w={35} err={!passed} ok={passed} repeatUrl='#/actividad2a' nxtUrl='#/actividad3'>
                 {
                     collection.map((question, index) => {
                             if(question === collAnswers[index]){
